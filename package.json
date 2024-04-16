@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "An Eleventy blog starter forked from eleventy-base-blog but with Sia's opinions",
   "scripts": {
-    "build": "npx eleventy",
-    "start": "npx eleventy --serve",
+    "build": " eleventy",
+    "start": " eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
-     "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
+    "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
   },
   "repository": {
     "type": "git",
